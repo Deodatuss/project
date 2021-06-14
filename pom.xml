@@ -1,6 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-<reporting>
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example.maven-project</groupId>
@@ -29,6 +28,7 @@
     </site>
   </distributionManagement>
 
+  <reporting>
   <build>
     <!--reporting was here in second commit-->
     <plugins>
@@ -161,6 +161,7 @@
     </pluginManagement>
    <!--/reporting was here in second commit-->
   </build>
+  </reporting>
 
   <dependencyManagement>
     <dependencies>
@@ -216,5 +217,4 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-</reporting>
 </project>
