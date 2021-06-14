@@ -27,11 +27,11 @@
       <name>Test Project Site</name>
       <url>http://localhost:8081/repository/sample-release/</url>
     </repository>
-       <snapshot<repository>
+       <snapshot>
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>http://localhost:8081/repository/sample-snapshot//</url>
-    </snapshot<repository>
+    </snapshot>
   </distributionManagement>
 
   <build>
