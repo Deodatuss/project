@@ -16,6 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>jenkims-maven</finalName>
+    <finalName>jenkins-maven</finalName>
   </build>
 </project>
